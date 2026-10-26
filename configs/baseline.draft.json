@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "draft_not_executable",
+  "purpose": "First upstream-policy rollout, followed by a separately frozen suite evaluation",
+  "model_family": "OpenVLA-OFT",
+  "benchmark": "LIBERO",
+  "task_suite": null,
+  "checkpoint_id": null,
+  "checkpoint_revision": null,
+  "tasks": null,
+  "initial_state_indices": null,
+  "seeds": null,
+  "trials_per_task": null,
+  "predicted_chunk_length": null,
+  "executed_chunk_length": null,
+  "timeout_steps": null,
+  "success_rule": "upstream_native_unchanged",
+  "perturbation": "none_for_original_baseline",
+  "training_performed": false,
+  "resource_target": "one NVIDIA RTX 4090 24 GB; total runtime peak unverified"
+}

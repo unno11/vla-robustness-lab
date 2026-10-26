@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-26",
+  "selection_status": "candidate_heads_not_runtime_validated",
+  "repositories": [
+    {
+      "name": "OpenVLA-OFT",
+      "url": "https://github.com/moojink/openvla-oft",
+      "sha": "e4287e94541f459edc4feabc4e181f537cd569a8",
+      "runtime_validated": false
+    },
+    {
+      "name": "LIBERO",
+      "url": "https://github.com/Lifelong-Robot-Learning/LIBERO",
+      "sha": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+      "runtime_validated": false
+    }
+  ],
+  "dependency_lock": null,
+  "checkpoint": null,
+  "note": "Recorded from upstream on this date. Final compatibility pins and model revision require deployment validation."
+}
