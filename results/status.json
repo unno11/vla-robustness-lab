@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "as_of_date": "2026-10-26",
-  "stage": "repository_initialization",
+  "as_of_date": "2026-10-28",
+  "stage": "environment_deployment_and_full_dataset_download",
   "gpu_environment_validated": false,
   "policy_rollout_completed": false,
   "benchmark_completed": false,
@@ -11,5 +11,5 @@
   "successes": null,
   "success_rate": null,
   "improvement_verified": false,
-  "note": "No project benchmark results. Repository checks do not validate model performance."
+  "note": "No policy or benchmark result. Main reproduction scope now covers all four OFT LIBERO suites, sequentially after smoke validation. Original 130-task dataset and official four-suite RLDS downloads running, not complete. IPEC LIBERO-10 conversion download hashes verified; decoder compatibility pending."
 }
