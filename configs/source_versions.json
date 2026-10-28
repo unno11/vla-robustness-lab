@@ -18,5 +18,8 @@
   ],
   "dependency_lock": null,
   "checkpoint": null,
-  "note": "Recorded from upstream on this date. Final compatibility pins and model revision require deployment validation."
+  "note": "Candidate compatibility pins remain unverified for the official policy. LIBERO CPU import and no-render physics passed for the pinned source; this does not validate camera rendering or OFT checkpoint compatibility. CPU dependency snapshot is not a GPU inference lock.",
+  "cpu_dependency_snapshot": "requirements/libero-cpu.snapshot.txt",
+  "cpu_validation_evidence": "results/cpu_validation.json",
+  "data_read_evidence": "results/data_read_audit.json"
 }

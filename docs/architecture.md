@@ -42,3 +42,5 @@ OpenVLA-OFT的[LIBERO说明](https://github.com/moojink/openvla-oft/blob/main/LI
 - `vla-scripts/finetune.py`：训练入口，当前不运行。
 
 这些是上游公开入口，本仓库尚未完成逐函数运行追踪。首次实现时以[源码版本记录](../configs/source_versions.json)中的已验证提交为准，而不依赖随时变化的main页面。
+
+固定版本的静态核对记录见[接口源码检查表](interface-source-checklist.md)。其中明确区分源码确认、CPU 物理观测与尚未执行的策略链路。

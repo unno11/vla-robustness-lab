@@ -29,3 +29,5 @@ results/raw/
 *.pem
 *.key
 .DS_Store
+
+.venv-*/

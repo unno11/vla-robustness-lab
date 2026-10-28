@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "as_of_date": "2026-10-28",
-  "stage": "environment_deployment_and_full_dataset_download",
+  "as_of_date": "2026-10-29",
+  "stage": "cpu_and_data_read_validation_complete",
   "gpu_environment_validated": false,
   "policy_rollout_completed": false,
   "benchmark_completed": false,
@@ -11,5 +11,10 @@
   "successes": null,
   "success_rate": null,
   "improvement_verified": false,
-  "note": "No policy or benchmark result. Main reproduction scope now covers all four OFT LIBERO suites, sequentially after smoke validation. Original 130-task dataset and official four-suite RLDS downloads running, not complete. IPEC LIBERO-10 conversion download hashes verified; decoder compatibility pending."
+  "note": "CPU module import and seeded five-step no-render physics diagnostic passed. Full 130-task HDF5 audit and four-suite RLDS framing/CRC/Example audit passed with explicitly sampled image decoding. No camera rendering, checkpoint inference, policy rollout, benchmark or training has been validated.",
+  "cpu_import_validated": true,
+  "cpu_physics_smoke_completed": true,
+  "camera_observation_validated": false,
+  "dataset_downloads_verified": true,
+  "dataset_read_audit_completed": true
 }

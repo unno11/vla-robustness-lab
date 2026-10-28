@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "started_utc": "2026-10-28T16:15:00.106486+00:00",
+  "finished_utc": "2026-10-28T16:36:20.714876+00:00",
+  "script_sha256": "8bdb9c2c47d0876ec5f46fc453342ba8c7cf674d9c9b97461078fe92f93259af",
+  "hdf5": {
+    "passed": true,
+    "suites": {
+      "libero_spatial": {
+        "tasks": 10,
+        "episodes": 500,
+        "steps": 62250,
+        "reward_positive_at_end": 500
+      },
+      "libero_object": {
+        "tasks": 10,
+        "episodes": 500,
+        "steps": 74507,
+        "reward_positive_at_end": 500
+      },
+      "libero_goal": {
+        "tasks": 10,
+        "episodes": 500,
+        "steps": 63728,
+        "reward_positive_at_end": 500
+      },
+      "libero_90": {
+        "tasks": 90,
+        "episodes": 4500,
+        "steps": 669043,
+        "reward_positive_at_end": 4500
+      },
+      "libero_10": {
+        "tasks": 10,
+        "episodes": 500,
+        "steps": 138090,
+        "reward_positive_at_end": 500
+      }
+    },
+    "episode_count": 6500,
+    "step_count": 1007618,
+    "image_frames_read": 26000,
+    "errors": [],
+    "scope": "All task files and episode schemas; all numeric actions/states/rewards/dones read; first and last image per camera per episode decoded. Intermediate image pixels not exhaustively read."
+  },
+  "rlds": {
+    "suites": [
+      {
+        "suite": "libero_spatial_no_noops",
+        "episodes": 432,
+        "steps": 52970,
+        "shards": 16,
+        "jpeg_frames_decoded": 4
+      },
+      {
+        "suite": "libero_object_no_noops",
+        "episodes": 454,
+        "steps": 66984,
+        "shards": 32,
+        "jpeg_frames_decoded": 4
+      },
+      {
+        "suite": "libero_goal_no_noops",
+        "episodes": 428,
+        "steps": 52042,
+        "shards": 16,
+        "jpeg_frames_decoded": 4
+      },
+      {
+        "suite": "libero_10_no_noops",
+        "episodes": 379,
+        "steps": 101469,
+        "shards": 32,
+        "jpeg_frames_decoded": 4
+      }
+    ],
+    "errors": [],
+    "scope": "All TFRecord framing and CRC32C, all Example records and numeric/sequence fields; first/last JPEG images of first episode in each suite. Not a TensorFlow/TFDS training-loader integration test.",
+    "passed": true
+  },
+  "gpu_used": false,
+  "training_performed": false,
+  "policy_rollout_completed": false
+}
